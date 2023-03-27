@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+</head>
+<body>
+    <form id='formid' action="">
+        <fieldset>
+            <legend> Add Book </legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <br>
+            <br>
+            <label for="author">Author:</label>
+            <input type="text" id="author">
+            <br>
+            <br>
+            <label for="pages">Pages:</label>
+            <input type="number" id="pages"><br><br>
+            <br>
+            <label for="checkbox">Read:</label>
+            <input type="checkbox" id="checkbox">
+            <button type="button" id="button" onclick="getVal()">Submit</button>
+        </fieldset>
+    </form>
+    <div id="container">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
